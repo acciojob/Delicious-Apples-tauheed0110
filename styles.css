@@ -1,1 +1,85 @@
 /* your code here */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgba(58, 248, 165, 0.971);
+}
+.main{
+    display: flex;
+    background-color: aliceblue;
+    border-radius: 10px;
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.detail{
+    padding: 40px;
+    padding-left: 20px;
+}
+.photo-main>img{
+    height: 320px;
+    width: 240px;
+    position: relative;
+    top: 40px;
+    left: -20px;
+}
+
+.detail>h2{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.price{
+    margin-top: 30px;
+    color: red;
+    font-size: 20px;
+}
+.price>#number{
+    font-size: 30px;
+    font-weight: 400;
+}
+.variant>h2{
+    margin-top: 20px;
+    font-size: 16px;
+    color: gray;
+    font-weight: 400;
+}
+.variant>ul{
+    display: flex;
+    list-style: none;
+    padding-left: 30px;
+}
+.variant>ul>li>img{
+    height: 40px;
+    width:40px;
+}
+
+.description>h2{
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+}
+
+.description>ol{
+    font-size: 13px;
+    margin-left: 40px;
+}
+
+button{
+    height: 35px;
+    width: 140px;
+    background-color: red;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5px;
+    margin-top: 20px;
+}
